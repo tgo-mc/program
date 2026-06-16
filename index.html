@@ -1,619 +1,621 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <title>Mimecast Q2 Partner Prospecting Blitz</title>
-  <!--[if mso]>
-  <noscript>
-    <xml>
-      <o:OfficeDocumentSettings>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-      </o:OfficeDocumentSettings>
-    </xml>
-  </noscript>
-  <![endif]-->
-  <style type="text/css">
-    body, table, td, p, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; }
-    img { -ms-interpolation-mode: bicubic; border: 0; display: block; }
-    body { margin: 0; padding: 0; background-color: #f0f0f4; }
-    a { color: #076DDD; text-decoration: none; }
-    @media only screen and (max-width: 600px) {
-      .email-wrapper { width: 100% !important; }
-      .mobile-full { width: 100% !important; display: block !important; }
-      .mobile-pad { padding: 20px 16px !important; }
-      .hide-mobile { display: none !important; }
-    }
-  </style>
+  <title>Register | Mimecast Q2 Partner Prospecting Blitz</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
   <style>
-    *, *::before, *::after { box-sizing: border-box; }
-    :root { --navy:#010041; --red:#DB333E; --blue:#076DDD; --graphite:#4E4F5F; --shadow:#E5E5E9; --light:#F4F4F7; --white:#ffffff; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── MODAL OVERLAY ── */
-    #lp-modal { display:none; position:fixed; inset:0; z-index:9999; background:rgba(1,0,65,0.75); backdrop-filter:blur(4px); overflow-y:auto; padding:28px 16px; }
-    #lp-modal.open { display:block; }
-    .lp-modal-inner { background:#F4F4F7; border-radius:10px; max-width:1160px; margin:0 auto; overflow:hidden; position:relative; box-shadow:0 24px 80px rgba(1,0,65,0.45); animation:slideUp 0.25s ease; }
-    @keyframes slideUp { from{transform:translateY(30px);opacity:0;} to{transform:translateY(0);opacity:1;} }
-    .lp-close-btn { position:absolute; top:14px; right:18px; z-index:10; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; font-size:20px; width:34px; height:34px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; font-family:Arial,sans-serif; transition:background 0.2s; }
-    .lp-close-btn:hover { background:rgba(219,51,62,0.7); }
+    :root {
+      --navy:    #010041;
+      --red:     #DB333E;
+      --blue:    #076DDD;
+      --atlantic:#0D417B;
+      --graphite:#4E4F5F;
+      --shadow:  #E5E5E9;
+      --light:   #F4F4F7;
+      --white:   #ffffff;
+    }
 
-    /* ── LP NAV ── */
-    .lp-topnav { background:var(--navy); padding:0 40px; height:58px; display:flex; align-items:center; justify-content:space-between; }
-    .lp-nav-logo { font-size:18px; font-weight:800; letter-spacing:2px; color:#fff; text-transform:uppercase; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-nav-tag { font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; color:rgba(255,255,255,0.55); font-family:'Open Sans',Arial,sans-serif; }
+    html { scroll-behavior: smooth; }
 
-    /* ── LP HERO ── */
-    .lp-hero { background:linear-gradient(120deg,#010041 0%,#0a2d6e 55%,#0D417B 100%); padding:40px 40px 32px; position:relative; overflow:hidden; }
-    .lp-hero::before { content:''; position:absolute; top:-60px; right:-60px; width:260px; height:260px; border-radius:50%; background:radial-gradient(circle,rgba(219,51,62,0.18) 0%,transparent 70%); pointer-events:none; }
-    .lp-hero-inner { max-width:1080px; margin:0 auto; position:relative; z-index:1; }
-    .lp-eyebrow { display:inline-flex; align-items:center; gap:8px; background:rgba(219,51,62,0.15); border:1px solid rgba(219,51,62,0.4); color:#ff8a8a; font-size:10px; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:5px 12px; border-radius:2px; margin-bottom:14px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-eyebrow::before { content:''; display:inline-block; width:6px; height:6px; border-radius:50%; background:var(--red); animation:pulse 1.8s ease-in-out infinite; }
-    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:0.4;transform:scale(0.7);} }
-    .lp-hero-title { font-size:30px; font-weight:800; color:#fff; line-height:1.18; margin-bottom:8px; letter-spacing:-0.5px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-hero-title em { font-style:normal; color:#6eb5ff; }
-    .lp-hero-subtitle { font-size:13.5px; color:rgba(255,255,255,0.65); margin-bottom:20px; max-width:520px; line-height:1.6; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-pills { display:flex; flex-wrap:wrap; gap:10px; }
-    .lp-pill { background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:#fff; font-size:11.5px; font-weight:600; padding:5px 13px; border-radius:100px; display:flex; align-items:center; gap:6px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-pill .dot { width:5px; height:5px; border-radius:50%; background:var(--red); }
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background: var(--light);
+      color: var(--navy);
+      min-height: 100vh;
+    }
 
-    /* ── LP BODY ── */
-    .lp-body { max-width:1080px; margin:0 auto; padding:28px 24px 44px; display:grid; grid-template-columns:1fr 420px; gap:24px; align-items:start; }
-    .lp-left { display:flex; flex-direction:column; gap:18px; }
-    .lp-section-label { font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--red); margin-bottom:12px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-about { background:#fff; border-radius:6px; padding:22px 22px 18px; border:1px solid var(--shadow); }
-    .lp-about p { font-size:13px; line-height:1.75; color:var(--graphite); font-family:'Open Sans',Arial,sans-serif; }
-    .lp-about p+p { margin-top:10px; }
-    .lp-about strong { color:var(--navy); }
+    /* ─── TOP NAV ─── */
+    .topnav {
+      background: var(--navy);
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 16px rgba(1,0,65,0.4);
+    }
+    .nav-logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--white);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--red); }
+    .nav-tag {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+    }
 
-    /* Challenges */
-    .lp-challenges-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-    .lp-challenge { background:#fff; border-radius:6px; border:1px solid var(--shadow); overflow:hidden; }
-    .lp-ch-top { padding:14px 16px 12px; }
-    .lp-ch-top.blue { background:var(--blue); }
-    .lp-ch-top.red  { background:var(--red); }
-    .lp-ch-icon { font-size:18px; margin-bottom:5px; display:block; }
-    .lp-ch-name { font-size:12.5px; font-weight:700; color:#fff; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-ch-product { font-size:10px; color:rgba(255,255,255,0.72); margin-top:2px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-ch-body { padding:12px 16px; }
-    .lp-ch-table { width:100%; border-collapse:collapse; font-size:11px; }
-    .lp-ch-table thead tr { background:var(--navy); color:#fff; }
-    .lp-ch-table thead th { padding:6px 7px; font-size:9.5px; font-weight:700; text-align:left; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-ch-table tbody td { padding:6px 7px; color:var(--graphite); border-bottom:1px solid var(--shadow); vertical-align:top; line-height:1.4; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-ch-table tbody tr:last-child td { border-bottom:none; }
-    .lp-ch-table tbody tr:nth-child(even) td { background:var(--light); }
-    .lp-badge { display:inline-block; font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:2px; color:#fff; }
-    .lp-badge.blue { background:var(--blue); }
-    .lp-badge.red  { background:var(--red); }
+    /* ─── HERO BAND ─── */
+    .hero {
+      background: linear-gradient(120deg, #010041 0%, #0a2d6e 55%, #0D417B 100%);
+      padding: 56px 40px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 340px; height: 340px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(219,51,62,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -80px; left: 30%;
+      width: 260px; height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(7,109,221,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(219,51,62,0.15);
+      border: 1px solid rgba(219,51,62,0.4);
+      color: #ff8a8a;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 2px;
+      margin-bottom: 18px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--red);
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.7); }
+    }
+    .hero-title {
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.18;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+    .hero-title em {
+      font-style: normal;
+      color: #6eb5ff;
+    }
+    .hero-subtitle {
+      font-size: 15px;
+      color: rgba(255,255,255,0.65);
+      margin-bottom: 28px;
+      max-width: 560px;
+      line-height: 1.6;
+    }
+    .hero-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .hero-pill {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .hero-pill .dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--red);
+    }
+
+    /* ─── MAIN LAYOUT ─── */
+    .page-body {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+      display: grid;
+      grid-template-columns: 1fr 400px;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* ─── LEFT COLUMN ─── */
+    .left-col { display: flex; flex-direction: column; gap: 24px; }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 14px;
+    }
+
+    /* About block */
+    .about-card {
+      background: var(--white);
+      border-radius: 6px;
+      padding: 28px 28px 24px;
+      border: 1px solid var(--shadow);
+    }
+    .about-card p {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--graphite);
+    }
+    .about-card p + p { margin-top: 12px; }
+    .about-card strong { color: var(--navy); }
+
+    /* Challenge cards */
+    .challenges-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .challenge {
+      background: var(--white);
+      border-radius: 6px;
+      border: 1px solid var(--shadow);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .challenge:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(1,0,65,0.12);
+    }
+    .challenge-top {
+      padding: 18px 20px 14px;
+      position: relative;
+    }
+    .challenge-top.blue { background: var(--blue); }
+    .challenge-top.red  { background: var(--red); }
+    .ch-icon {
+      font-size: 22px;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .ch-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.3;
+    }
+    .ch-product {
+      font-size: 10.5px;
+      color: rgba(255,255,255,0.72);
+      margin-top: 3px;
+      font-weight: 400;
+    }
+    .challenge-body { padding: 16px 20px; }
+    .ch-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11.5px;
+    }
+    .ch-table thead tr {
+      background: var(--navy);
+      color: var(--white);
+    }
+    .ch-table thead th {
+      padding: 7px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      text-align: left;
+    }
+    .ch-table tbody td {
+      padding: 7px 8px;
+      color: var(--graphite);
+      border-bottom: 1px solid var(--shadow);
+      vertical-align: top;
+      line-height: 1.4;
+    }
+    .ch-table tbody tr:last-child td { border-bottom: none; }
+    .ch-table tbody tr:nth-child(even) td { background: var(--light); }
+    .reward-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 2px;
+      color: var(--white);
+    }
+    .reward-badge.blue { background: var(--blue); }
+    .reward-badge.red  { background: var(--red); }
 
     /* Terms */
-    .lp-terms { background:#fff; border-radius:6px; padding:18px 22px; border:1px solid var(--shadow); }
-    .lp-terms-grid { display:grid; grid-template-columns:1fr 1fr; gap:0; }
-    .lp-term-item { padding:10px 0; border-bottom:1px solid var(--shadow); display:flex; gap:10px; align-items:flex-start; }
-    .lp-term-item:nth-last-child(-n+2) { border-bottom:none; }
-    .lp-term-icon { width:26px; height:26px; border-radius:4px; background:var(--light); display:flex; align-items:center; justify-content:center; font-size:12px; flex-shrink:0; }
-    .lp-term-label { font-size:9px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:var(--graphite); margin-bottom:2px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-term-value { font-size:11.5px; color:var(--navy); font-weight:600; line-height:1.4; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-countries { display:flex; flex-wrap:wrap; gap:6px; margin-top:4px; }
-    .lp-country-chip { background:var(--light); border:1px solid var(--shadow); color:var(--navy); font-size:10px; font-weight:600; padding:3px 9px; border-radius:100px; font-family:'Open Sans',Arial,sans-serif; }
-
-    /* Forms */
-    .lp-right { display:flex; flex-direction:column; gap:20px; }
-    .lp-form-card { background:#fff; border-radius:8px; border:1px solid var(--shadow); box-shadow:0 6px 28px rgba(1,0,65,0.09); overflow:hidden; }
-    .lp-form-label { display:flex; align-items:center; gap:10px; padding:9px 16px; font-size:10px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#fff; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-form-label.blue { background:var(--blue); }
-    .lp-form-label.red  { background:var(--red); }
-    .lp-form-label .lbl-dot { width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,0.55); flex-shrink:0; }
-    .lp-form-header { background:var(--navy); padding:16px 20px 12px; }
-    .lp-form-title { font-size:14px; font-weight:700; color:#fff; margin-bottom:2px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-form-sub { font-size:10.5px; color:rgba(255,255,255,0.55); font-family:'Open Sans',Arial,sans-serif; }
-    .lp-iframe { width:100%; border:none; display:block; min-height:860px; }
-
-    /* LP footer */
-    .lp-footer { background:var(--navy); padding:18px 40px; text-align:center; }
-    .lp-footer-brand { font-size:13px; font-weight:800; letter-spacing:2px; color:#fff; text-transform:uppercase; margin-bottom:5px; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-footer-text { font-size:10px; color:rgba(255,255,255,0.4); line-height:1.6; font-family:'Open Sans',Arial,sans-serif; }
-    .lp-footer-text a { color:rgba(255,255,255,0.6); text-decoration:none; }
-
-    @media (max-width:760px) {
-      .lp-body { grid-template-columns:1fr; }
-      .lp-challenges-grid { grid-template-columns:1fr; }
-      .lp-terms-grid { grid-template-columns:1fr; }
-      .lp-hero { padding:28px 20px 24px; }
+    .terms-card {
+      background: var(--white);
+      border-radius: 6px;
+      padding: 24px 28px;
+      border: 1px solid var(--shadow);
     }
+    .terms-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .term-item {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--shadow);
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .term-item:nth-last-child(-n+2) { border-bottom: none; }
+    .term-icon {
+      width: 30px; height: 30px;
+      border-radius: 4px;
+      background: var(--light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .term-label {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--graphite);
+      margin-bottom: 3px;
+    }
+    .term-value {
+      font-size: 12.5px;
+      color: var(--navy);
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    /* Countries */
+    .countries-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+    .country-chip {
+      background: var(--light);
+      border: 1px solid var(--shadow);
+      color: var(--navy);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 11px;
+      border-radius: 100px;
+    }
+
+    /* ─── RIGHT COLUMN: FORM CARD ─── */
+    .form-card {
+      background: var(--white);
+      border-radius: 8px;
+      border: 1px solid var(--shadow);
+      box-shadow: 0 8px 40px rgba(1,0,65,0.1);
+      overflow: hidden;
+      position: sticky;
+      top: 80px;
+    }
+    .form-header {
+      background: var(--navy);
+      padding: 22px 24px 18px;
+    }
+    .form-header-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .form-header-sub {
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+    }
+    .form-progress {
+      height: 3px;
+      background: rgba(255,255,255,0.1);
+      margin-top: 14px;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .form-progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--blue), var(--red));
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+    .smartsheet-iframe {
+      width: 100%;
+      border: none;
+      display: block;
+      min-height: 900px;
+    }
+
+
+
+    /* ─── FOOTER ─── */
+    .site-footer {
+      background: var(--navy);
+      padding: 24px 40px;
+      text-align: center;
+    }
+    .footer-text {
+      font-size: 11px;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.6;
+    }
+    .footer-text a { color: rgba(255,255,255,0.6); text-decoration: none; }
+    .footer-brand {
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--white);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .footer-brand span { color: var(--red); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 820px) {
+      .page-body { grid-template-columns: 1fr; }
+      .form-card { position: static; }
+      .challenges-grid { grid-template-columns: 1fr; }
+      .terms-grid { grid-template-columns: 1fr; }
+      .term-item:nth-last-child(-n+2) { border-bottom: 1px solid var(--shadow); }
+      .term-item:last-child { border-bottom: none; }
+      .hero { padding: 36px 24px 32px; }
+      .topnav { padding: 0 20px; }
+    }
+
+    /* ─── FADE IN ANIMATION ─── */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up:nth-child(1) { animation-delay: 0.05s; }
+    .fade-up:nth-child(2) { animation-delay: 0.15s; }
+    .fade-up:nth-child(3) { animation-delay: 0.25s; }
+    .fade-up:nth-child(4) { animation-delay: 0.35s; }
   </style>
 </head>
-<body style="margin:0;padding:0;background-color:#f0f0f4;">
+<body>
 
-<!-- OUTER WRAPPER -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f0f0f4;">
-  <tr>
-    <td align="center" style="padding:24px 16px;">
+<!-- TOP NAV -->
+<nav class="topnav">
+  <a class="nav-logo" href="#">MIMECAST</a>
+  <span class="nav-tag">Asia Partner Program</span>
+</nav>
 
-      <!-- EMAIL CONTAINER -->
-      <table class="email-wrapper" width="620" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;border-radius:4px;overflow:hidden;">
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Now Open for Registration</div>
+    <h1 class="hero-title">Q2 <em>Partner</em><br>Prospecting Blitz</h1>
+    <p class="hero-subtitle">Compete, grow and win. Two exciting business challenges built to reward Mimecast partners who drive results across Asia.</p>
+    <div class="hero-pills">
+      <span class="hero-pill"><span class="dot"></span>1 July – 30 Sep 2026</span>
+      <span class="hero-pill"><span class="dot"></span>SG · MY · ID · PH · HK</span>
+    </div>
+  </div>
+</div>
 
-        <!-- ══ HEADER ══ -->
-        <tr>
-          <td bgcolor="#010041" style="padding:18px 32px;background-color:#010041;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td style="font-family:'Open Sans',Arial,sans-serif;font-size:20px;font-weight:800;color:#ffffff;letter-spacing:2px;text-transform:uppercase;">
-                  MIMECAST
-                </td>
-                <td align="right">
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td bgcolor="#DB333E" style="background-color:#DB333E;border-radius:2px;padding:5px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;letter-spacing:1px;text-transform:uppercase;">
-                        Asia Partner Program
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
+<!-- PAGE BODY -->
+<div class="page-body">
+
+  <!-- LEFT COLUMN -->
+  <div class="left-col">
+
+    <!-- About -->
+    <div class="about-card fade-up">
+      <div class="section-label">About the Program</div>
+      <p>We're excited to announce the launch of our new <strong>Q2 Partner Prospecting Blitz</strong> running from 1 July to 30 September 2026. We want to bring out the competitive spirit in our partners, drive business growth, and reward those who excel.</p>
+      <p>Our <strong>Q2 Partner Prospecting Blitz</strong> is running <strong>two new exciting business challenges</strong>. Register below to secure your place and start competing for exclusive incentives.</p>
+    </div>
+
+    <!-- Challenges -->
+    <div class="fade-up">
+      <div class="section-label">Business Challenges</div>
+      <div class="challenges-grid">
+
+        <!-- Challenge 1 -->
+        <div class="challenge">
+          <div class="challenge-top blue">
+            <span class="ch-icon">🛡</span>
+            <div class="ch-name">Mimecast Growth Challenge</div>
+            <div class="ch-product">All Mimecast solutions</div>
+          </div>
+          <div class="challenge-body">
+            <table class="ch-table">
+              <thead>
+                <tr>
+                  <th>Segment</th>
+                  <th>Reward</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>50 – 1,000 seats<br><span style="font-size:10px;color:#888;">(SMB, Mid-market, Enterprise)</span></td>
+                  <td><span class="reward-badge blue">$100</span></td>
+                </tr>
+                <tr>
+                  <td>&gt; 1,001 seats</td>
+                  <td><span class="reward-badge blue">$150</span></td>
+                </tr>
+              </tbody>
             </table>
-          </td>
-        </tr>
+            <p style="font-size:10.5px;color:var(--graphite);margin-top:10px;line-height:1.5;">Requirement: N&amp;U opp DR, with meeting attended and quote provided within program period</p>
+          </div>
+        </div>
 
-        <!-- ══ HERO ══ -->
-        <!--[if mso]>
-        <tr>
-          <td bgcolor="#010041" style="padding:44px 32px 36px;background-color:#010041;">
-        <![endif]-->
-        <!--[if !mso]><!-->
-        <tr>
-          <td bgcolor="#010041" style="padding:44px 32px 36px;background-color:#010041;">
-        <!--<![endif]-->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td>
-                  <!-- Eyebrow -->
-                  <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:14px;">
-                    <tr>
-                      <td bgcolor="#3a0008" style="background-color:#3a0008;border:1px solid #DB333E;border-radius:2px;padding:5px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ff9999;letter-spacing:2px;text-transform:uppercase;">
-                        &#9679;&nbsp; Now Open for Registration
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- Title -->
-                  <p style="margin:0 0 8px;font-family:'Open Sans',Arial,sans-serif;font-size:34px;font-weight:800;color:#ffffff;line-height:1.2;letter-spacing:-0.5px;">
-                    Q2 <span style="color:#6eb5ff;">Partner</span><br/>Prospecting Blitz
-                  </p>
-                  <!-- Subtitle -->
-                  <p style="margin:0 0 24px;font-family:'Open Sans',Arial,sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;">
-                    Compete, grow and win. Two exciting business challenges built to reward<br/>Mimecast partners who drive results across Asia.
-                  </p>
-                  <!-- Pills -->
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td bgcolor="#1a1a5e" style="background-color:#1a1a5e;border:1px solid rgba(255,255,255,0.2);border-radius:100px;padding:6px 14px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#ffffff;">
-                        &#128197;&nbsp; 1 July &ndash; 30 Sep 2026
-                      </td>
-                      <td width="8"></td>
-                      <td bgcolor="#1a1a5e" style="background-color:#1a1a5e;border:1px solid rgba(255,255,255,0.2);border-radius:100px;padding:6px 14px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#ffffff;">
-                        &#127757;&nbsp; SG &middot; MY &middot; ID &middot; PH &middot; HK
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
+        <!-- Challenge 2 -->
+        <div class="challenge">
+          <div class="challenge-top red">
+            <span class="ch-icon">✉</span>
+            <div class="ch-name">Incydr Sprint Challenge</div>
+            <div class="ch-product">Incydr</div>
+          </div>
+          <div class="challenge-body">
+            <table class="ch-table">
+              <thead>
+                <tr>
+                  <th>Min. Value Threshold</th>
+                  <th>Reward</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Minimum of 5 accepted DRs pipeline in-quarter</td>
+                  <td><span class="reward-badge red">$1,500</span></td>
+                </tr>
+              </tbody>
             </table>
-          </td>
-        </tr>
+            <p style="font-size:10.5px;color:var(--graphite);margin-top:10px;line-height:1.5;">Awarded to only 1 partner with the highest Incydr opportunities in each quarter. Requirement: DR with Incydr, meeting attended and quote provided within program period.</p>
+          </div>
+        </div>
 
-        <!-- ══ BODY ══ -->
-        <tr>
-          <td style="padding:32px 32px 0;">
+      </div>
+    </div>
 
-            <!-- Dear / Intro -->
-            <p style="margin:0 0 8px;font-family:'Open Sans',Arial,sans-serif;font-size:14px;color:#4E4F5F;line-height:1.75;">Dear valued partner,</p>
-            <p style="margin:0 0 12px;font-family:'Open Sans',Arial,sans-serif;font-size:14px;color:#4E4F5F;line-height:1.75;">
-              We're excited to announce the launch of our new <strong style="color:#010041;">Q2 Partner Prospecting Blitz</strong> running from 1 July to 30 September 2026. We want to bring out the competitive spirit in our partners, drive business growth, and reward those who excel.
-            </p>
-            <p style="margin:0 0 28px;font-family:'Open Sans',Arial,sans-serif;font-size:14px;color:#4E4F5F;line-height:1.75;">
-              Our <strong style="color:#010041;">Q2 Partner Prospecting Blitz</strong> is running <strong style="color:#010041;">two new exciting business challenges</strong>. Here's what you need to know to get started:
-            </p>
-
-            <!-- SECTION LABEL: Business Challenges -->
-            <p style="margin:0 0 14px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#DB333E;">Business Challenges</p>
-
-            <!-- ── CHALLENGE 1: Mimecast Growth ── -->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;border:1px solid #E5E5E9;border-radius:4px;overflow:hidden;">
-              <tr>
-                <td bgcolor="#076DDD" style="background-color:#076DDD;padding:16px 20px;">
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td style="font-size:22px;padding-right:12px;">&#128737;</td>
-                      <td>
-                        <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:14px;font-weight:700;color:#ffffff;">Mimecast Growth Challenge</p>
-                        <p style="margin:2px 0 0;font-family:'Open Sans',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.75);">Eligible products: All Mimecast solutions &nbsp;&bull;&nbsp; When: 1 July &ndash; 30 September 2026</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:0;">
-                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                    <tr bgcolor="#010041" style="background-color:#010041;">
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;letter-spacing:0.3px;width:40%;">Requirements</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;letter-spacing:0.3px;width:25%;">Customer Segment</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;letter-spacing:0.3px;width:20%;">Incentive</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;letter-spacing:0.3px;width:15%;">Program</td>
-                    </tr>
-                    <tr bgcolor="#ffffff">
-                      <td rowspan="2" style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;border-bottom:1px solid #E5E5E9;vertical-align:top;">N&amp;U opp DR, with meeting attended and quote provided within program period</td>
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;border-bottom:1px solid #E5E5E9;">50 &ndash; 1,000 seats<br/><span style="font-size:10px;color:#888;">(SMB, Mid-market, Enterprise)</span></td>
-                      <td style="padding:9px 12px;border-bottom:1px solid #E5E5E9;">
-                        <table cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#076DDD" style="background-color:#076DDD;border-radius:2px;padding:2px 8px;font-family:'Open Sans',Arial,sans-serif;font-size:11px;font-weight:700;color:#ffffff;">$100</td></tr></table>
-                      </td>
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;border-bottom:1px solid #E5E5E9;">Reseller</td>
-                    </tr>
-                    <tr bgcolor="#f4f4f7">
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;">&gt; 1,001 seats</td>
-                      <td style="padding:9px 12px;">
-                        <table cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#076DDD" style="background-color:#076DDD;border-radius:2px;padding:2px 8px;font-family:'Open Sans',Arial,sans-serif;font-size:11px;font-weight:700;color:#ffffff;">$150</td></tr></table>
-                      </td>
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;">Reseller</td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-
-            <!-- ── CHALLENGE 2: API Email Sprint ── -->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;border:1px solid #E5E5E9;border-radius:4px;overflow:hidden;">
-              <tr>
-                <td bgcolor="#DB333E" style="background-color:#DB333E;padding:16px 20px;">
-                  <table cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td style="font-size:22px;padding-right:12px;">&#9993;</td>
-                      <td>
-                        <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:14px;font-weight:700;color:#ffffff;">Incydr Sprint Challenge</p>
-                        <p style="margin:2px 0 0;font-family:'Open Sans',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.75);">Eligible products: Incydr &nbsp;&bull;&nbsp; When: 1 July &ndash; 30 September 2026</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td style="padding:0;">
-                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                    <tr bgcolor="#010041" style="background-color:#010041;">
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;width:50%;">Requirements</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;width:25%;">Minimum Value Threshold</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;width:15%;">Incentive</td>
-                      <td style="padding:8px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;color:#ffffff;width:10%;">Program</td>
-                    </tr>
-                    <tr bgcolor="#ffffff">
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;">DR with Incydr, with meeting attended and quote provided within program period</td>
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;">Minimum of 5 accepted DRs pipeline in-quarter</td>
-                      <td style="padding:9px 12px;">
-                        <table cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#DB333E" style="background-color:#DB333E;border-radius:2px;padding:2px 8px;font-family:'Open Sans',Arial,sans-serif;font-size:11px;font-weight:700;color:#ffffff;">$1,500</td></tr></table>
-                      </td>
-                      <td style="padding:9px 12px;font-family:'Open Sans',Arial,sans-serif;font-size:12px;color:#4E4F5F;">Awarded to only 1 Partner with the highest Incydr opportunities in each quarter for each eligible country</td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-
-            <!-- DIVIDER -->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
-              <tr><td height="1" bgcolor="#E5E5E9" style="font-size:1px;line-height:1px;">&nbsp;</td></tr>
-            </table>
-
-            <!-- ══ TERMS & CONDITIONS ══ -->
-            <p style="margin:0 0 14px;font-family:'Open Sans',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#DB333E;">Terms &amp; Conditions</p>
-
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f4f7" style="background-color:#f4f4f7;border-radius:4px;margin-bottom:24px;">
-              <tr>
-                <td style="padding:20px 24px;">
-                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
-
-                    <!-- Row 1 -->
-                    <tr>
-                      <td width="50%" valign="top" style="padding:10px 12px 10px 0;border-bottom:1px solid #E5E5E9;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#128197;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 2px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Program Period</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">1 July &ndash; 30 September 2026</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td width="50%" valign="top" style="padding:10px 0 10px 12px;border-bottom:1px solid #E5E5E9;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#129309;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 2px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Eligibility</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">Opt-in authorized, Premier, Elite and Sapphire partners</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-
-                    <!-- Row 2 -->
-                    <tr>
-                      <td width="50%" valign="top" style="padding:10px 12px 10px 0;border-bottom:1px solid #E5E5E9;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#9989;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 2px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Eligible Deals</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">Net new &amp; upsell. Renewals excluded.</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td width="50%" valign="top" style="padding:10px 0 10px 12px;border-bottom:1px solid #E5E5E9;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#128203;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 2px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Deal Registration</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">Must be approved &amp; converted to opportunity</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-
-                    <!-- Row 3 -->
-                    <tr>
-                      <td width="50%" valign="top" style="padding:10px 12px 0 0;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#127942;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 2px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Results &amp; Rewards</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">Results mid-Oct &middot; Rewards end of Oct 2026</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td width="50%" valign="top" style="padding:10px 0 0 12px;">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                          <tr>
-                            <td bgcolor="#ffffff" style="background-color:#ffffff;border-radius:4px;width:30px;height:30px;text-align:center;font-size:14px;padding:6px;">&#127757;</td>
-                            <td width="10"></td>
-                            <td>
-                              <p style="margin:0 0 4px;font-family:'Open Sans',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#4E4F5F;">Participating Countries</p>
-                              <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:12px;font-weight:600;color:#010041;">&#127480;&#127468; SG &nbsp;&#127474;&#127486; MY &nbsp;&#127470;&#127465; ID &nbsp;&#127477;&#127469; PH &nbsp;&#127469;&#127472; HK</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-
-                  </table>
-                </td>
-              </tr>
-            </table>
-
-          </td>
-        </tr>
-
-        <!-- ══ CTA BAND ══ -->
-        <tr>
-          <td bgcolor="#010041" style="background-color:#010041;padding:28px 32px;text-align:center;">
-            <p style="margin:0 0 18px;font-family:'Open Sans',Arial,sans-serif;font-size:15px;font-weight:600;color:#ffffff;line-height:1.5;">
-              Ready to compete and win?<br/>Register now to secure your spot in the program.
-            </p>
-            <table cellpadding="0" cellspacing="0" border="0" align="center">
-              <tr>
-                <td bgcolor="#DB333E" style="background-color:#DB333E;border-radius:4px;">
-                  <a href="https://tgo-mc.github.io/program/" target="_blank" style="display:inline-block;padding:14px 36px;font-family:'Open Sans',Arial,sans-serif;font-size:13px;font-weight:700;color:#ffffff;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Register Now &rarr;</a>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-
-        <!-- ══ FOOTER ══ -->
-        <tr>
-          <td bgcolor="#010041" style="background-color:#010041;border-top:1px solid rgba(255,255,255,0.1);padding:20px 32px;text-align:center;">
-            <p style="margin:0 0 6px;font-family:'Open Sans',Arial,sans-serif;font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6;">
-              Warm regards,
-            </p>
-            <p style="margin:0 0 14px;font-family:'Open Sans',Arial,sans-serif;font-size:13px;font-weight:700;color:#ffffff;">
-              Mimecast &nbsp;&bull;&nbsp; Asia Alliances and Channels
-            </p>
-            <p style="margin:0;font-family:'Open Sans',Arial,sans-serif;font-size:10px;color:rgba(255,255,255,0.35);line-height:1.7;">
-              &copy; 2026 Mimecast. All rights reserved.<br/>
-              <a href="mailto:apacpartners@mimecast.com" style="color:rgba(255,255,255,0.5);">apacpartners@mimecast.com</a>
-              &nbsp;&middot;&nbsp;
-              <a href="#" style="color:rgba(255,255,255,0.5);">Privacy Policy</a>
-              &nbsp;&middot;&nbsp;
-              <a href="#" style="color:rgba(255,255,255,0.5);">Unsubscribe</a>
-            </p>
-          </td>
-        </tr>
-
-      </table>
-      <!-- /EMAIL CONTAINER -->
-
-    </td>
-  </tr>
-</table>
-
-<!-- ══ LANDING PAGE MODAL ══ -->
-<div id="lp-modal">
-  <div class="lp-modal-inner">
-
-    <!-- Close button -->
-    <button class="lp-close-btn" onclick="document.getElementById('lp-modal').classList.remove('open');document.body.style.overflow='';" title="Close">&times;</button>
-
-    <!-- Nav -->
-    <nav class="lp-topnav">
-      <span class="lp-nav-logo">MIMECAST</span>
-      <span class="lp-nav-tag">Asia Partner Program</span>
-    </nav>
-
-    <!-- Hero -->
-    <div class="lp-hero">
-      <div class="lp-hero-inner">
-        <div class="lp-eyebrow">Now Open for Registration</div>
-        <h1 class="lp-hero-title">Q2 <em>Partner</em><br>Prospecting Blitz</h1>
-        <p class="lp-hero-subtitle">Compete, grow and win. Two exciting business challenges built to reward Mimecast partners who drive results across Asia.</p>
-        <div class="lp-pills">
-          <span class="lp-pill"><span class="dot"></span>1 July – 30 Sep 2026</span>
-          <span class="lp-pill"><span class="dot"></span>SG · MY · ID · PH · HK</span>
+    <!-- Terms -->
+    <div class="terms-card fade-up">
+      <div class="section-label">Terms &amp; Conditions</div>
+      <div class="terms-grid">
+        <div class="term-item">
+          <div class="term-icon">📅</div>
+          <div>
+            <div class="term-label">Program Period</div>
+            <div class="term-value">1 July – 30 September 2026</div>
+          </div>
+        </div>
+        <div class="term-item">
+          <div class="term-icon">🤝</div>
+          <div>
+            <div class="term-label">Eligibility</div>
+            <div class="term-value">Opt-in authorized, Premier, Elite and Sapphire partners</div>
+          </div>
+        </div>
+        <div class="term-item">
+          <div class="term-icon">✅</div>
+          <div>
+            <div class="term-label">Eligible Deals</div>
+            <div class="term-value">Net new opportunities &amp; upsell. Renewals excluded.</div>
+          </div>
+        </div>
+        <div class="term-item">
+          <div class="term-icon">📋</div>
+          <div>
+            <div class="term-label">Deal Registration</div>
+            <div class="term-value">Must be approved &amp; converted to opportunity</div>
+          </div>
+        </div>
+        <div class="term-item">
+          <div class="term-icon">🏆</div>
+          <div>
+            <div class="term-label">Results &amp; Rewards</div>
+            <div class="term-value">Results mid-Oct · Rewards by end of October 2026</div>
+          </div>
+        </div>
+        <div class="term-item">
+          <div class="term-icon">🌏</div>
+          <div>
+            <div class="term-label">Participating Countries</div>
+            <div class="countries-row">
+              <span class="country-chip">🇸🇬 Singapore</span>
+              <span class="country-chip">🇲🇾 Malaysia</span>
+              <span class="country-chip">🇮🇩 Indonesia</span>
+              <span class="country-chip">🇵🇭 Philippines</span>
+              <span class="country-chip">🇭🇰 Hong Kong</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Page body -->
-    <div class="lp-body">
+  </div><!-- /left-col -->
 
-      <!-- Left column -->
-      <div class="lp-left">
+  <!-- RIGHT COLUMN: FORM -->
+  <div>
+    <div class="form-card fade-up">
+      <div class="form-header">
+        <div class="form-header-title">Register to Participate</div>
+        <div class="form-header-sub">Complete the form below to join the challenge</div>
+      </div>
+      <iframe
+        class="smartsheet-iframe"
+        src="https://app.smartsheet.com/b/form/c532a1402c6841658e8cb587ac595d45"
+        title="Q2 Partner Prospecting Blitz Registration"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
 
-        <!-- About -->
-        <div class="lp-about">
-          <div class="lp-section-label">About the Program</div>
-          <p>We're excited to announce the launch of our new <strong>Q2 Partner Prospecting Blitz</strong> running from 1 July to 30 September 2026. We want to bring out the competitive spirit in our partners, drive business growth, and reward those who excel.</p>
-          <p>Our <strong>Q2 Partner Prospecting Blitz</strong> is running <strong>two new exciting business challenges</strong>. Register to secure your place and start competing for exclusive incentives.</p>
-        </div>
+</div><!-- /page-body -->
 
-        <!-- Challenges -->
-        <div>
-          <div class="lp-section-label">Business Challenges</div>
-          <div class="lp-challenges-grid">
-            <div class="lp-challenge">
-              <div class="lp-ch-top blue">
-                <span class="lp-ch-icon">🛡</span>
-                <div class="lp-ch-name">Mimecast Growth Challenge</div>
-                <div class="lp-ch-product">All Mimecast solutions</div>
-              </div>
-              <div class="lp-ch-body">
-                <table class="lp-ch-table">
-                  <thead><tr><th>Segment</th><th>Reward</th></tr></thead>
-                  <tbody>
-                    <tr><td>50 – 1,000 seats<br><span style="font-size:9.5px;color:#888;">(SMB, Mid-market, Enterprise)</span></td><td><span class="lp-badge blue">$100</span></td></tr>
-                    <tr><td>&gt; 1,001 seats</td><td><span class="lp-badge blue">$150</span></td></tr>
-                  </tbody>
-                </table>
-                <p style="font-size:10px;color:var(--graphite);margin-top:8px;line-height:1.5;font-family:'Open Sans',Arial,sans-serif;">Requirement: N&amp;U opp DR, with meeting attended and quote provided within program period</p>
-              </div>
-            </div>
-            <div class="lp-challenge">
-              <div class="lp-ch-top red">
-                <span class="lp-ch-icon">✉</span>
-                <div class="lp-ch-name">Incydr Sprint Challenge</div>
-                <div class="lp-ch-product">Incydr</div>
-              </div>
-              <div class="lp-ch-body">
-                <table class="lp-ch-table">
-                  <thead><tr><th>Min. Value Threshold</th><th>Reward</th></tr></thead>
-                  <tbody>
-                    <tr><td>Minimum of 5 accepted DRs pipeline in-quarter</td><td><span class="lp-badge red">$1,500</span></td></tr>
-                  </tbody>
-                </table>
-                <p style="font-size:10px;color:var(--graphite);margin-top:8px;line-height:1.5;font-family:'Open Sans',Arial,sans-serif;">Awarded to only 1 Partner with the highest Incydr opportunities in each quarter for each eligible country.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-brand">MIMECAST</div>
+  <p class="footer-text">
+    © 2026 Mimecast. All rights reserved.<br>
+    Questions? Contact your Channel Account Manager or email <a href="mailto:apacpartners@mimecast.com">apacpartners@mimecast.com</a><br>
+    <a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Use</a>
+  </p>
+</footer>
 
-        <!-- Terms -->
-        <div class="lp-terms">
-          <div class="lp-section-label">Terms &amp; Conditions</div>
-          <div class="lp-terms-grid">
-            <div class="lp-term-item">
-              <div class="lp-term-icon">📅</div>
-              <div><div class="lp-term-label">Program Period</div><div class="lp-term-value">1 July – 30 September 2026</div></div>
-            </div>
-            <div class="lp-term-item">
-              <div class="lp-term-icon">🤝</div>
-              <div><div class="lp-term-label">Eligibility</div><div class="lp-term-value">Opt-in authorized, Premier, Elite and Sapphire partners</div></div>
-            </div>
-            <div class="lp-term-item">
-              <div class="lp-term-icon">✅</div>
-              <div><div class="lp-term-label">Eligible Deals</div><div class="lp-term-value">Net new opportunities &amp; upsell. Renewals excluded.</div></div>
-            </div>
-            <div class="lp-term-item">
-              <div class="lp-term-icon">📋</div>
-              <div><div class="lp-term-label">Deal Registration</div><div class="lp-term-value">Must be approved &amp; converted to opportunity</div></div>
-            </div>
-            <div class="lp-term-item">
-              <div class="lp-term-icon">🏆</div>
-              <div><div class="lp-term-label">Results &amp; Rewards</div><div class="lp-term-value">Results mid-Oct · Rewards by end of October 2026</div></div>
-            </div>
-            <div class="lp-term-item">
-              <div class="lp-term-icon">🌏</div>
-              <div>
-                <div class="lp-term-label">Participating Countries</div>
-                <div class="lp-countries">
-                  <span class="lp-country-chip">🇸🇬 Singapore</span>
-                  <span class="lp-country-chip">🇲🇾 Malaysia</span>
-                  <span class="lp-country-chip">🇮🇩 Indonesia</span>
-                  <span class="lp-country-chip">🇵🇭 Philippines</span>
-                  <span class="lp-country-chip">🇭🇰 Hong Kong</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-      </div><!-- /lp-left -->
-
-      <!-- Right column: forms -->
-      <div class="lp-right">
-
-        <div class="lp-form-card">
-          <div class="lp-form-label blue"><span class="lbl-dot"></span>Mimecast Growth Challenge</div>
-          <div class="lp-form-header">
-            <div class="lp-form-title">Register to Participate</div>
-            <div class="lp-form-sub">All Mimecast solutions · 50–1,000+ seats</div>
-          </div>
-          <iframe class="lp-iframe" src="https://app.smartsheet.com/b/form/019ece40ffee7e1b96ece57d9a46b661" title="Mimecast Growth Challenge Registration" allowfullscreen></iframe>
-        </div>
-
-      </div><!-- /lp-right -->
-
-    </div><!-- /lp-body -->
-
-    <!-- LP footer -->
-    <footer class="lp-footer">
-      <div class="lp-footer-brand">MIMECAST</div>
-      <p class="lp-footer-text">
-        &copy; 2026 Mimecast. All rights reserved.<br>
-        Questions? Contact your Channel Account Manager or email <a href="mailto:apacpartners@mimecast.com">apacpartners@mimecast.com</a><br>
-        <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Use</a>
-      </p>
-    </footer>
-
-  </div><!-- /lp-modal-inner -->
-</div><!-- /lp-modal -->
-
-<script>
-  // Close modal when clicking the dark backdrop (outside the inner card)
-  document.getElementById('lp-modal').addEventListener('click', function(e) {
-    if (e.target === this) {
-      this.classList.remove('open');
-      document.body.style.overflow = '';
-    }
-  });
-  // Close on Escape key
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      document.getElementById('lp-modal').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-  });
-</script>
 
 </body>
 </html>
